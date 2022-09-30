@@ -1,0 +1,40 @@
+doctype html
+html 
+    head 
+        style 
+         include ../static/style.css 
+    body    
+      nav#navbar 
+            ul 
+                div#logo
+                      SDA
+
+                li #[a(href="/") Home ]
+                li #[a(href="/") About ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Class info]
+                li #[a(href="/") Contact Us]
+    section#introSection
+        div   Welcome to Sweta's Dance Academy
+        div.small   Dance to your own Rhythm
+    section#OurMission Our Mission is To make you Dance & be free like you rule the World... 
+        br
+        div.card 
+             h3 Dance Perfection 
+        div.card 
+             h3 True Expression
+        div.card
+             h3 Expert Tutoring
+
+    section#sponsorsSection    
+        h1  Our sponsors  
+        div#sponsors 
+            img(src="/static/img/sponsor1.PNG", alt="Sponsor Image" Class="spImage")
+            img(src="/static/img/sponsor2.PNG", alt="Sponsor Image" Class="spImage")
+            img(src="/static/img/sponsor3.PNG", alt="Sponsor Image" Class="spImage")
+            img(src="/static/img/sponsor4.PNG", alt="Sponsor Image" Class="spImage")
+ 
+    footer#footer 
+             h5   Copyright © 2023 Swetadanceacademy.com | All Rights Reserved  
+    script 
+         include ../static/index.js

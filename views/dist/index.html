@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*{
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0; 
+}
+#navbar{
+    background-color: rgb(94, 9, 9);
+    padding: 13px 11px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    background: center/cover no-repeat url("/static/bg1.PNG");
+    height: 500px;
+    background-color: red;
+}
+
+#introSection div.small{
+    font-size: 25px;
+}
+
+#OurMission{
+    color: rgb(233, 11, 11);
+    background-color: black;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin: auto;
+}
+
+.card{
+    display: inline-block;
+    color: beige;
+    border: 2px solid rgb(250, 1, 1);
+    border-radius: 11px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 210px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+
+#sponsorsSection{
+    height: 150px;
+    background-color: rgb(124, 116, 112);
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.spImage{
+    height: 140px;
+    width: 225px;
+    padding: 25px 25px;
+    align-items: center;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 11px;
+    text-align: center;
+}
+
+
+    </style>
+  </head>
+  <body>   
+    <nav id="navbar"> 
+      <ul> 
+        <div id="logo">
+          <SDA></SDA>
+        </div>
+        <li><a href="/">Home </a></li>
+        <li><a href="/">About </a></li>
+        <li><a href="/">Services </a></li>
+        <li><a href="/">Class info</a></li>
+        <li><a href="/">Contact Us</a></li>
+      </ul>
+    </nav>
+  </body>
+  <section id="introSection">
+    <div>  Welcome to Sweta's Dance Academy</div>
+    <div class="small">  Dance to your own Rhythm</div>
+  </section>
+  <section id="OurMission">Our Mission is To make you Dance & be free like you rule the World... <br>
+    <div class="card"> 
+      <h3>Dance Perfection </h3>
+    </div>
+    <div class="card"> 
+      <h3>True Expression</h3>
+    </div>
+    <div class="card">
+      <h3>Expert Tutoring</h3>
+    </div>
+  </section>
+  <section id="sponsorsSection">   
+    <h1> Our sponsors  </h1>
+    <div id="sponsors"> <img src="/static/img/sponsor1.PNG" alt="Sponsor Image" Class="spImage"><img src="/static/img/sponsor2.PNG" alt="Sponsor Image" Class="spImage"><img src="/static/img/sponsor3.PNG" alt="Sponsor Image" Class="spImage"><img src="/static/img/sponsor4.PNG" alt="Sponsor Image" Class="spImage"></div>
+  </section>
+  <footer id="footer"> 
+    <h5>  Copyright © 2023 Swetadanceacademy.com | All Rights Reserved  </h5>
+  </footer>
+  <script>
+     </script>
+</html>
